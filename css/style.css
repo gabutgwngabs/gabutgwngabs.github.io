@@ -230,19 +230,19 @@ a:focus {
   width: 120%;
   padding-top: 8%;
   text-align: left;
-  margin-left: -40px;
+  margin-left: 0px;
 }
 
 .slider_item-detail p {
   margin: 45px 0;
   color: white;
   text-align: left;
-  margin-left: -40px;
+  margin-left: 0px;
 
 }
 
 .buttonmainmenu {
-  margin-left: -40px;
+  margin-left: 0px;
 }
 .slider_section #carouselExampleControls,
 .carousel-inner,
