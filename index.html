@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!-- Basic -->
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <!-- Mobile Metas -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <!-- Site Metas -->
+  <meta name="keywords" content="" />
+  <meta name="description" content="" />
+  <meta name="author" content="" />
+
+  <title>Pool Online Shop</title>
+
+  <!-- slider stylesheet -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <link rel="stylesheet" type="text/css"
+    href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.1.3/assets/owl.carousel.min.css" />
+  <!-- bootstrap core css -->
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+
+  <!-- fonts style -->
+  <link href="https://fonts.googleapis.com/css?family=Poppins:400,700&display=swap" rel="stylesheet" />
+  <!-- Custom styles for this template -->
+  <link href="css/style.css" rel="stylesheet" />
+  <!-- responsive style -->
+  <link href="css/responsive.css" rel="stylesheet" />
+  <!-- Product List Script -->
+  <script src="js/products.js"></script>
+</head>
+
+<body>
+  <div class="hero_area">
+    <!-- header section strats -->
+    <header class="header_section">
+      <div class="container">
+        <nav class="navbar navbar-expand-lg custom_nav-container pt-3">
+          <a class="navbar-brand" href="index.html">
+            <img src="images/logo.jpg" alt="" /><span>
+              POOL ONLINE SHOP
+            </span>
+          </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <div class="d-flex ml-auto flex-column flex-lg-row align-items-center">
+              <ul class="navbar-nav  ">
+                <li class="nav-item active">
+                  <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="product.html"> Product</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="service.html"> Services </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="contact.html">Contact us</a>
+                </li>
+              </ul>
+              <form class="form-inline my-2 my-lg-0 ml-0 ml-lg-4 mb-3 mb-lg-0">
+                <button class="btn  my-2 my-sm-0 nav_search-btn" type="submit"></button>
+              </form>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <!-- end header section -->
+    <!-- slider section -->
+    <section class=" slider_section position-relative">
+      <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="slider_item-box">
+              <div class="slider_item-container">
+                <div class="container">
+                  <div class="row">
+                    <div class="col-md-6">
+                      <div class="slider_item-detail">
+                        <div>
+                          <h1>
+                            Welcome to <br />
+                            Pool Online Shop
+                            Yogyakarta
+                          </h1>
+                          <p>
+                            Toko Perlengkapan Kolam Renang Terlengkap di Indonesia. 
+                          </p>
+                          <div class="d-flex">
+                            <div class="buttonmainmenu"></div>
+                            <a href="contact.html" class="text-uppercase custom_blue-btn">
+                              Contact Us
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-6">
+                      <div class="slider_img-box">
+                        <div>
+                          <!-- <img src="images/slidebar-filter.png" alt="" class=""/> -->
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+    </section>
+
+    <!-- end slider section -->
+  </div>
+
+
+
+<!-- Profile Ala Ala -->
+
+<section class="about-section">
+  <div class="container">
+      <div class="text-center mb-5">
+          <h1>About Us</h1>
+      </div>
+      <div class="row align-items-center">
+          <div class="col-md-6 mb-4 mb-md-0">
+              <img src="images/tampakdepan.png" class="img-fluid rounded shadow" alt="Image of Wanlong Group's headquarters building with a clear blue sky in the background">
+          </div>
+          <div class="col-md-6">
+              <p>Lorem ipsum odor amet, consectetuer adipiscing elit. Semper in sodales phasellus turpis dis sodales penatibus auctor hendrerit. Suscipit mollis molestie nulla augue ultricies consectetur consequat. Varius felis integer ipsum vulputate diam. Massa vel duis nulla mi vel velit eu. Mus nibh adipiscing leo sagittis; convallis augue parturient montes.</p>
+          </div>
+      </div>
+  </div>
+</section>
+
+<!-- Products Section -->
+<section class="products_section layout_padding">
+  <div class="container">
+      <h2 class="custom_heading">Our Products</h2>
+      <p class="custom_heading-text">Explore our swimming pool equiments products.</p>
+      <div class="row" id="product-container">
+          <!-- Produk akan diisi di sini -->
+      </div>
+  </div>
+</section>
+<script>
+    // Memanggil fungsi untuk menampilkan produk setelah halaman dimuat
+    document.addEventListener('DOMContentLoaded', displayProducts);
+</script>
+
+
+
+<!-- End Products Section -->
+  <!-- service section -->
+
+  <section class="service_section layout_padding ">
+    <div class="container">
+      <h2 class="custom_heading">Our Services</h2>
+      <p class="custom_heading-text">
+        Why you should choose us ?
+      </p>
+      <div class=" layout_padding2">
+        <div class="card-deck">
+          <div class="card">
+            <img class="card-img-top" src="images/konsultasi.png" alt="Card image cap" />
+            <div class="card-body">
+              <h5 class="card-title">Free Konsultasi</h5>
+              <p class="card-text">
+                Kami menyediakan konsultasi gratis untuk membantu Anda 
+                memilih sistem kolam renang yang sesuai dengan kebutuhan. 
+                Tim kami siap memberikan saran terbaik agar Anda mendapatkan hasil maksimal tanpa biaya tambahan.
+
+              </p>
+            </div>
+          </div>
+          <div class="card">
+            <img class="card-img-top" src="images/kualitas.png" alt="Card image cap" />
+            <div class="card-body">
+              <h5 class="card-title">Produk Berkualitas Tinggi</h5>
+              <p class="card-text">
+                Kami hanya menggunakan bahan dan peralatan terbaik untuk 
+                memastikan kolam renang Anda tahan lama, mudah dirawat, dan aman digunakan. 
+                Produk kami telah teruji untuk memberikan performa optimal dalam jangka panjang.
+              </p>
+            </div>
+          </div>
+          <div class="card">
+            <img class="card-img-top" src="images/harga.png" alt="Card image cap" />
+            <div class="card-body">
+              <h5 class="card-title">Harga Produk Bersaing</h5>
+              <p class="card-text">
+                Kami menawarkan harga yang transparan dan kompetitif tanpa mengorbankan kualitas. 
+                Dengan penawaran terbaik di pasaran, Anda bisa mendapatkan 
+                produk berkualitas tinggi dengan harga yang tetap terjangkau.
+
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- end service section -->
+
+
+  <!-- map section -->
+  <section class="map_section">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d247.0929318528724!2d110.36531976282063!3d-7.738063879334011!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a596953f8b8ad%3A0x8dce7e810777890f!2sPool%20Online%20Shop%20Yogyakarta!5e0!3m2!1sen!2sid!4v1739190141033!5m2!1sen!2sid" width="1510" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>  </section>
+  </section>
+  <!-- end map section -->
+
+  
+<!-- contact section -->
+<section class="contact_section layout_padding">
+  <div class="container">
+      <h2 class="font-weight-bold">
+          Contact Us
+      </h2>
+      <div class="row">
+          <div class="col-md-12">
+              <h4>Contact Information</h4>
+              <ul class="list-unstyled">
+                  <li>
+                      <i class="fa fa-cart-plus"></i> <!-- Ikon Tokopedia -->
+                      <strong>Tokopedia:</strong> <a href="https://www.tokopedia.com/merapist" target="_blank">Visit our Tokopedia Store</a>
+                  </li>
+                  <li>
+                      <i class="fab fa-whatsapp"></i> <!-- Ikon WhatsApp -->
+                      <strong>WhatsApp Admin:</strong> <a href="https://wa.me/your_admin_number" target="_blank">Chat with Admin</a>
+                  </li>
+                  <li>
+                      <i class="fab fa-whatsapp"></i> <!-- Ikon WhatsApp -->
+                      <strong>WhatsApp Sales:</strong> <a href="" target="_blank">Coming Soon</a>
+                  </li>
+              </ul>
+          </div>
+          <div class="col-md-6">
+            <div class="social_container">
+              <h5>
+                Follow Us
+              </h5>
+              <div class="social-box">
+                <a href="https://www.facebook.com/p/Pool-Onlineshop-100075852678970/"target="_blank" rel="noopener noreferrer">
+                  <img src="images/fb.png" alt="">
+                </a>
+                <a href="https://www.instagram.com/poolonlineshop/" target="_blank" rel="noopener noreferrer">
+                  <img src="images/instagram.png" alt="">
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>        
+      </div>
+  </div>
+</div>
+
+</section>
+
+  <!-- footer section -->
+  <section class="container-fluid footer_section">
+    <p>
+      Copyright &copy; 2025 All Rights Reserved By Pool Online Shop
+    </p>
+  </section>
+  <!-- footer section -->
+
+  <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+  <script type="text/javascript" src="js/bootstrap.js"></script>
+  <!-- end google map js -->
+</body>
+
+</html>
